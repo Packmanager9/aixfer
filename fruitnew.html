@@ -1,0 +1,82 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </head>
+
+  <div class="gamepage-wrapper">
+
+    <!-- Basic header. Should hold simple branding and navigation. -->
+    <header class="gamepage-header">
+      <!-- Image provided by Eucalyp Studio in Artificial Intelligence from https://www.iconfinder.com/iconsets/artificial-intelligence-6 -->
+      <!-- <img id="site-logo" src="assets/iconfinder_ArtificialIntelligence29_2890576_blackwhite.png"> -->
+      <ul class="nav-content">
+        <!-- <li class="nav-list-item"><a class="nav-link-text" href="">Home</a></li> -->
+        <!-- <li class="nav-list-item"><a class="nav-link-text" href="http://ditzbitz.com/games.html">Games</a></li> -->
+        <!-- <li class="nav-list-item"><a class="nav-link-text" href="https://www.linkedin.com/in/cole-ditzler-41b160140/" target="_blank">About</a></li> -->
+      </ul>
+    </header>
+
+    <!-- Container for page content. Contains and aligns instructions, game, and ads. -->
+    <div class="game-content-container">
+      
+      <!-- Left side banner. Should contain instuctions for the game. -->
+      <aside class="gamepage-left-aside">
+        <h2></h2>
+        <ul>
+        </ul>
+      </aside>
+    
+      <!-- Game container. Holds the game for this page scaled to fit.  -->
+      <!-- <script src="fibifi.js"></script> -->
+      <script src="rgbox.js"></script>
+      <script src="brgbox.js"></script>
+      <script src="pombox.js"></script>
+      <script src="sobel.js"></script>
+      <script src="fruitnew.js"></script>
+      <div class="game-container">
+        
+  <div id="dog-image-container">
+
+    <canvas  id="canvas" width="100" height="100"></canvas>
+    <canvas  id="canvas2" width="100" height="100"></canvas>
+    <canvas  id="canvas3" width="100" height="100"></canvas>
+
+    <canvas  id="output" width="100" height="100"></canvas>
+
+    <button id="run">run</button>
+    <h1 id="text">
+      <div class="slidecontainer">
+        <input type="range" step = ".1" min="-1" max="1" value="0" class="slider" id="b1">
+      </div>
+      <div class="slidecontainer">
+  <input type="range"  step = "0.00001" min="0" max=".1" value="0" class="slider" id="b2">
+</div>
+<div class="slidecontainer">
+  <input type="range" step = "0.1"  min="-1" max="1" value="1" class="slider" id="b3">
+</div>
+<div class="slidecontainer">
+  <input type="range" step = "0.1"  min="-1" max="1" value="1" class="slider" id="b4">
+</div>
+<div class="slidecontainer">
+  <input type="range" step = "0.1"  min="-1" max="1" value="1" class="slider" id="b5">
+</div>
+
+</div id="go">
+      </div>
+    
+      <!-- Right side banner. No content for now. Perhaps ad-space in the future. -->
+      <aside class="gamepage-right-aside">
+        <!-- Add content here later. -->
+      </aside>
+    </div>
+
+    <!-- Simple footer. Just a copyright notice. -->
+    <footer class="games-footer">
+    </footer>
+
+  </div>
+</html>
